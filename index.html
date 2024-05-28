@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <div id="root">
+    <div id="app">
+      <div id="gridContainer">
+        <div id="redContainer" class="spyGridContainers">
+          <div id="redSpyContainer" class="spyContainer">
+            <div class="spyImg dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg dashedBorderSpyGrid gridPiece"></div>
+          </div>
+          <div class="gridAndContinue">
+            <div id="redPlayerGrid" class="playerGrids"></div>
+            <button id="redSpyOver">Continue</button>
+            <div id="redSkillBar" class="skillBar">0</div>
+          </div>
+          <div id="redSpySender" class="redGrids gridPiece spySender"></div>  
+
+        </div>
+        <div id="blueContainer" class="spyGridContainers">
+          
+          <div id="blueSpySender" class="blueGrids gridPiece spySender"></div>  
+
+          <div class="gridAndContinue">
+            <div id="bluePlayerGrid" class="playerGrids"></div>
+            <button id="blueSpyOver">Continue</button>
+            <div id="blueSkillBar" class="skillBar">0</div>
+          </div>
+          <div id="blueSpyContainer" class="spyContainer">
+            <div class="spyImg blueGrids dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg blueGrids dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg blueGrids dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg blueGrids dashedBorderSpyGrid gridPiece"></div>
+            <div class="spyImg blueGrids dashedBorderSpyGrid gridPiece"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./scripts/main.js" defer></script>
+</body>
+</html>
